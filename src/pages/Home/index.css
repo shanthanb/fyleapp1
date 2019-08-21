@@ -1,0 +1,11 @@
+.list td {
+    cursor: pointer;
+  }
+  .list td:hover:after,
+  .list td.fav:after {
+    content: ' \2605';
+    color: rgb(255, 203, 0);
+  }
+  .list td.fav:hover:after {
+    content: ' \2606';
+  }
